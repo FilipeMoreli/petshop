@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+
+.negrito-dourado{
+    font-weight: bold;
+    color:goldenrod;
+    font-size:20px;
+    font-style: italic;
+}
+
+header{
+    background-image:url("img/banner-topo.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 800px;
+    padding:120px 80px;
+}
+
+.imgpatas{
+    width:30px;
+    height:30px;
+}
+
+.secao-topo{
+    display: inline-block;
+    min-width: 200px;
+    margin:70px auto 100px auto;
+    color:#3c184e;
+    border: 5px solid gold;
+    border-radius: 20px;
+    padding:5px;
+}
+
+.secao-topo h1{
+    font-size:36px;
+}
+
+.secao-topo p{
+    font-size:15px;
+    color:#3c184e;
+}
+
+.caixa-transparente{
+    margin:0 auto;
+    padding: 50px;
+    max-width: 1200px;
+    border-radius: 20px;
+    background-color:rgba(30, 144, 255, 0.4);
+    box-shadow:0px 0px 50px 5px;
+}
+
+.caixa-transparente p{
+    color:#3c184e;
+    font-weight: bold;
+    font-size:80px;
+    text-align: center;
+    opacity:100%;
+}
+
+.botaofale {
+    background-color:#3c184e;
+    color:#ffff;
+    font-size:20px;
+    padding:10px;
+    margin: 30px auto 0px auto;
+    border-radius:15px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+}
+
+.imgbotaofale{
+    width: 20px;
+    height:20px;
+}
+
+.servicos{
+    max-width: 1200px;
+    width:100%;
+    margin:30px auto;
+}
+
+.tituloservicos{
+    font-size:35px;
+    font-weight: bold;
+    margin:30px auto;
+    text-align: center;
+    color:#3c184e
+}
+
+.listaservicos li{
+    margin-bottom: 20px;
+    text-align:justify;
+    font-size:16px;
+}
+
+.galeria{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.galeria img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 300px;
+}
+
+.contato{
+    background-color: #3c184e;
+    color:#ffff;
+    font-size: 30px;
+    text-align: center;
+    padding:100px;
+}
+
+.contato-negrito{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.contato p{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.botaocontato{
+    width:50px;
+    height:50px;
+    margin:20px 40px;
+}
+
+.marcas{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin:30px auto;
+}
+
+.marcas h2{
+    color: #3c184e;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-marca{
+    padding:20px;
+    }
+
+.mapa{
+    text-align:center;
+    width: 100%;
+    max-width:1200px;
+    margin:30px auto;
+}
+
+.mapa h2{
+    color: #3c184e;
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+.mapa p{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.mapa iframe{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px;
+}
+
+footer{
+    background-color: #3c184e;
+    font-size: 25px;
+    color:#ffff;
+    padding:10px;
+    text-align:center;
+}
